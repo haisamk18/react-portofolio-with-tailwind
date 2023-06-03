@@ -59,15 +59,15 @@ export default function Home() {
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Freelancer providing services for programming and design content
-              needs. Join me down below and let's get cracking!
+              needs. Join me down below and lets get cracking!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a href="https://github.com/haisamk18" target='_blank'><AiFillGithub /></a>
-              <a href="https://www.linkedin.com/in/haisam-khurshid/" target='_blank'><AiFillLinkedin /></a>
-              <a href="https://www.instagram.com/haixsam/" target='_blank'><AiFillInstagram /></a>
+              <a href="https://github.com/haisamk18" target='_blank' rel="noreferrer"><AiFillGithub /></a>
+              <a href="https://www.linkedin.com/in/haisam-khurshid/" target='_blank' rel="noreferrer"><AiFillLinkedin /></a>
+              <a href="https://www.instagram.com/haixsam/" target='_blank' rel="noreferrer"><AiFillInstagram /></a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={Img} layout="fill" objectFit="cover" />
+              <Image src={Img} layout="fill" objectFit="cover" alt="haisampic"/>
             </div>
           </div>
         </section>
@@ -76,7 +76,7 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
+              developer, I&apos;ve done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
@@ -89,7 +89,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} width={100} height={100} alt="haisampic" />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Beautiful Designs
               </h3>
@@ -104,12 +104,12 @@ export default function Home() {
               <p className="text-gray-800 py-1">Indesign</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} width={100} height={100} alt="haisampic" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Code your dream project
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
+                Do you have an idea for your next great website? Let&apos;s make it a
                 reality.
               </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
@@ -119,7 +119,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Indesign</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} width={100} height={100} alt="dn" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
               <p className="py-2">
                 Are you interested in feedback for your current project? I can
@@ -138,7 +138,7 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
+              developer, I&apos;ve done remote work for
               <span className="text-teal-500"> agencies </span>
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
@@ -157,6 +157,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web1}
+                alt="jcned"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -166,6 +167,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web2}
+                alt="dmewkd"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -175,6 +177,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web3}
+                alt="kdewn"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -184,6 +187,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web4}
+                alt="ndwejkn"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -193,6 +197,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web5}
+                alt="njcnew"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -202,6 +207,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web6}
+                alt="jdewnjfn"
               />
             </div>
           </div>

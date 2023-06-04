@@ -94,45 +94,43 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src={design} width={100} height={100} alt="haisampic" />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
-                Beautiful Designs
+                Frontend Development
               </h3>
               <p className="py-2">
-                Creating elegant designs suited for your needs following core
-                design theory.
+                I design and code beautifully simple things ,and I love what i do.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
+              <h4 className="py-4 text-teal-600">Tools I Use</h4>
+              <p className="text-gray-800 py-1">React</p>
+              <p className="text-gray-800 py-1">Javascript</p>
+              <p className="text-gray-800 py-1">HTML/CSS</p>
               <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} alt="haisampic" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
-                Code your dream project
+                Backend Development
               </h3>
               <p className="py-2">
                 Do you have an idea for your next great website? Let&apos;s make it a
                 reality.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h4 className="py-4 text-teal-600"> Tools I Use</h4>
+              <p className="text-gray-800 py-1">Node.js</p>
+              <p className="text-gray-800 py-1">Express.js</p>
+              <p className="text-gray-800 py-1">Python</p>
+              <p className="text-gray-800 py-1">php</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} alt="dn" />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
+              <h3 className="text-lg font-medium pt-8 pb-2 ">Database Integration</h3>
               <p className="py-2">
-                Are you interested in feedback for your current project? I can
-                give you tips and tricks to level it up.
+                
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h4 className="py-4 text-teal-600"> Tools I Use</h4>
+              <p className="text-gray-800 py-1">MongoDB</p>
+              <p className="text-gray-800 py-1">Firebase</p>
+              <p className="text-gray-800 py-1">SQL</p>
+              
             </div>
           </div>
         </section>
